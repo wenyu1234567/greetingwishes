@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>蛇年祝福语生成器</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://res.wx.qq.com/open/js/jweixin-1.6.0.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div id="homePage" class="page">
+            <input type="text" id="nameInput" placeholder="输入拜年对象，如老师，爸爸">
+            <button id="generateBtn">生成祝福语</button>
+        </div>
+        
+        <div id="resultPage" class="page hidden">
+            <div id="greetingText" class="greeting"></div>
+            <div class="button-group">
+                <button id="copyBtn">复制</button>
+                <button id="changeBtn">换一个</button>
+                <button id="backBtn">返回</button>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
